@@ -1,11 +1,11 @@
-var array1 = ["cat", "bat", "sum", "fun", "run"],
-    array2 = ["bat", "cat", "dog", "sun", "hut", "gut"];
+const array1 = ["kita", "bisa", "dot", "com"],
+    array2 = ["kita", "dot", "bisa", "donasi", "com", "yuk"];
 
 function getMatch(a, b) {
-    var matches = [];
+    const matches = [];
 
-    for ( var i = 0; i < a.length; i++ ) {
-        for ( var e = 0; e < b.length; e++ ) {
+    for ( let i = 0; i < a.length; i++ ) {
+        for ( let e = 0; e < b.length; e++ ) {
             if ( a[i] === b[e] ) matches.push( a[i] );
         }
     }
